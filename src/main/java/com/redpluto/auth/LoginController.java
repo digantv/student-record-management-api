@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-    @Autowired
-    LoginService loginService;
+  @Autowired LoginService loginService;
 
-    @PostMapping(path = "/api/auth/login", consumes = { "application/json", "application/xml" }, produces = {
-	    "application/json", "application/xml" })
-    public LoginResponse validate(@RequestBody LoginRequest loginRequest) {
+  @PostMapping(
+      path = "/api/auth/login",
+      consumes = {"application/json", "application/xml"},
+      produces = {"application/json", "application/xml"})
+  public LoginResponse validate(@RequestBody LoginRequest loginRequest) {
 
-	return loginService.validateUser(loginRequest);
-    }
+    return loginService.validateUser(loginRequest);
+  }
 }
