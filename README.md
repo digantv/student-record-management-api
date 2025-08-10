@@ -30,7 +30,15 @@
 - Lombok (optional)
 
 ---
+##Images
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb4d2575-2550-499d-a267-2adca2ea48ce" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44316a26-bae9-424f-a75d-c61c6aef7b26" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c9aa1776-8383-454d-8342-7745755c28db" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19f57358-036c-45c6-8a79-b9edf332a8fe" />
 
+
+
+---
 ## Quick start (local)
 
 Prereqs: JDK 17+, Maven, Git
