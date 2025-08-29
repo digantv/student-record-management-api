@@ -15,7 +15,6 @@
   - `name`: required, min 3 chars
   - `age`: required, between 5 and 25
   - `marks`: exactly 5 integers, each 0–100
-- H2 (default) with sample data. Optionally MySQL/Postgres via `application.properties` or docker-compose.
 - DTOs used for request/response
 - Unit tests for service layer (optional)
 
@@ -23,9 +22,8 @@
 - Java 17+ (recommended)
 - Spring Boot 3.x
 - Spring Web, Spring Data JPA, Spring Security
-- JJWT (or io.jsonwebtoken) for JWT
-- H2 (dev), MySQL/Postgres (optional)
-- Maven (or Gradle)
+- MySQL
+- Maven
 - JUnit 5 for tests
 - Lombok (optional)
 
@@ -35,8 +33,6 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44316a26-bae9-424f-a75d-c61c6aef7b26" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c9aa1776-8383-454d-8342-7745755c28db" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19f57358-036c-45c6-8a79-b9edf332a8fe" />
-
-
 
 ---
 ## Quick start (local)
@@ -54,3 +50,6 @@ mvn spring-boot:run
 
 # or run jar
 java -jar target/student-records-backend-0.0.1-SNAPSHOT.jar
+
+# also for running docker image:
+docker run -it --name=student_container student-api:latest
